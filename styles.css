@@ -1,0 +1,111 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #6a11cb, #2575fc);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Styling */
+  .card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  /* Form Styling */
+  .form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .form .btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form .btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Product List Styling */
+  .list-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button.btn-success {
+    background: #28a745;
+  }
+  
+  button.btn-danger {
+    background: #f40303;
+  }
+  button.btn-remove{
+    background:#007bff;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Total Sales */
+  .total-sales {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #totalSales {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

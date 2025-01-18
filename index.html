@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store Sales Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">MH-3 Canteen Sales Tracker</h1>
+
+    <!-- Add Product Form -->
+    <div class="card">
+      <div class="card-body">
+        <h5>Add Product</h5>
+        <form id="productForm" class="form">
+          <input type="text" id="productName" placeholder="Product Name" required>
+          <input type="number" id="productPrice" placeholder="Price (₹)" required>
+          <button type="submit" class="btn btn-primary">Add Product</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Product List -->
+    <div class="card">
+      <div class="card-body">
+        <h5>Products</h5>
+        <div id="items" class="list-group"></div>
+      </div>
+    </div>
+
+    <!-- Total Sales -->
+    <div class="total-sales">
+      <h4 id="totalSales">Total Sales: ₹0</h4>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
